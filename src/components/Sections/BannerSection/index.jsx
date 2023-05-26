@@ -11,7 +11,7 @@ function BannerSection( { children } ) {
             {children}
           </div>
         </div>
-        <img src="./src/assets/banner-img.png" alt="logo" />
+        <img src=".././src/assets/banner-img.png" alt="logo" />
       </section>
   )
 }
