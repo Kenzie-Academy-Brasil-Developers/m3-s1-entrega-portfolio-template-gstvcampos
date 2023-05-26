@@ -23,5 +23,10 @@
 .card > a {
     font-weight: 700;
     text-decoration: none;
-    color: var(--color-primary);
+    color: var(--color-link);
+}
+
+.card > a:hover {
+    text-decoration: dashed;
+    color: var(--color-primary-hover);
 }

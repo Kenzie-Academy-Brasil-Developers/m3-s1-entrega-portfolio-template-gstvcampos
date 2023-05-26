@@ -12,3 +12,8 @@
 
     /* height: fit-content; */
 }
+
+.button:hover {
+    background-color: var(--color-primary-hover);
+    border: .0625rem solid var(--color-primary-hover);
+}

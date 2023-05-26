@@ -1,5 +1,5 @@
 import styles from './styles.module.css'
-import Banner from '../../../assets/banner-img.png'
+import banner from '../../../assets/banner-img.png'
 
 function BannerSection( { children } ) {
   return (
@@ -12,7 +12,7 @@ function BannerSection( { children } ) {
             {children}
           </div>
         </div>
-        <img src={Banner} alt="banner" />
+        <img src={banner} alt="banner" />
       </section>
   )
 }

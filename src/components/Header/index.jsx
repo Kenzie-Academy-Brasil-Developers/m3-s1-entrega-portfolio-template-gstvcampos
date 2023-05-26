@@ -1,10 +1,10 @@
 import styles from './styles.module.css'
-import Logo from '../../../assets/portfolio.png'
+import logo from '../../assets/portfolio.png'
 
 function Header( { children } ) {
     return (
         <header className={styles.header}>
-            <img src={Logo} alt="logo" />
+            <img src={logo} alt="logo" />
             <div>
                 <a href="">Sobre</a>
                 <a href="">Stack</a>
