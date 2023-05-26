@@ -14,10 +14,10 @@ import './styles/globalStyles.css'
 function App() {
   return (
     <>
-      <Header imageUrl={"./src/assets/portfolio.png"}>
+      <Header>
         <Button name={"Contato"}/>
       </Header>
-      <BannerSection imageUrl={"./src/assets/banner-img.png"}>
+      <BannerSection>
         <Button name={"Saiba mais"}/>
       </BannerSection>
       <AboutMeSection/>
