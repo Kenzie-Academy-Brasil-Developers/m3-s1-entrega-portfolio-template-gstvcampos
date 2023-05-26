@@ -11,6 +11,11 @@ import Footer from './components/Footer'
 import './styles/reset.css'
 import './styles/globalStyles.css'
 
+import htmlIcon from './assets/html-icon.png'
+import cssIcon from './assets/css-icon.png'
+import jsIcon from './assets/js-icon.png'
+import reactIcon from './assets/react-icon.png'
+
 function App() {
   return (
     <>
@@ -22,10 +27,10 @@ function App() {
       </BannerSection>
       <AboutMeSection/>
       <TechSection>
-        <TechCard name={"HTML"} imageUrl={"./src/assets/html-icon.png"}/>
-        <TechCard name={"CSS"} imageUrl={"./src//assets/css-icon.png"}/>
-        <TechCard name={"Javascript"} imageUrl={"./src//assets/js-icon.png"}/>
-        <TechCard name={"React"} imageUrl={"./src//assets/react-icon.png"}/>
+        <TechCard name={"HTML"} imageUrl={htmlIcon}/>
+        <TechCard name={"CSS"} imageUrl={cssIcon}/>
+        <TechCard name={"Javascript"} imageUrl={jsIcon}/>
+        <TechCard name={"React"} imageUrl={reactIcon}/>
       </TechSection>
       <ProjectsSection>
         <ProjectCard/>
