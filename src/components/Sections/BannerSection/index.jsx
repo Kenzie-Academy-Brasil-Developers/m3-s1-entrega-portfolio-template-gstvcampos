@@ -12,7 +12,7 @@ function BannerSection( { children } ) {
             {children}
           </div>
         </div>
-        <img src={banner} alt="banner" />
+        <img src={banner} alt='banner' />
       </section>
   )
 }

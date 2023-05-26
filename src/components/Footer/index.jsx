@@ -6,9 +6,9 @@ function Footer() {
             <div>
                 <h2>Contato</h2>
                 <div className={styles.icons}>
-                    <img src="./src/assets/whatsapp-icon.png" alt="" />
-                    <img src="./src/assets/linkedin-icon.png" alt="" />
-                    <img src="./src/assets/github-icon.png" alt="" />
+                    <img src='./src/assets/whatsapp-icon.png' alt='' />
+                    <img src='./src/assets/linkedin-icon.png' alt='' />
+                    <img src='./src/assets/github-icon.png' alt='' />
                 </div>    
             </div>
             

@@ -20,17 +20,17 @@ function App() {
   return (
     <>
       <Header>
-        <Button name={"Contato"}/>
+        <Button name={'Contato'}/>
       </Header>
       <BannerSection>
-        <Button name={"Saiba mais"}/>
+        <Button name={'Saiba mais'}/>
       </BannerSection>
       <AboutMeSection/>
       <TechSection>
-        <TechCard name={"HTML"} imageUrl={htmlIcon}/>
-        <TechCard name={"CSS"} imageUrl={cssIcon}/>
-        <TechCard name={"Javascript"} imageUrl={jsIcon}/>
-        <TechCard name={"React"} imageUrl={reactIcon}/>
+        <TechCard name={'HTML'} imageUrl={htmlIcon}/>
+        <TechCard name={'CSS'} imageUrl={cssIcon}/>
+        <TechCard name={'Javascript'} imageUrl={jsIcon}/>
+        <TechCard name={'React'} imageUrl={reactIcon}/>
       </TechSection>
       <ProjectsSection>
         <ProjectCard/>
