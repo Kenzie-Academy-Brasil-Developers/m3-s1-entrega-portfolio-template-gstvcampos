@@ -1,6 +1,6 @@
 .about {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
 
     padding: 1.25rem;
@@ -15,10 +15,21 @@
     line-height: 1.875rem;
     width: 615px;
     max-width: 100%;
+    margin: 0 auto;
 }
 
-@media screen and (min-width: 900px) {
+.about > h2 {
+    width: 615px;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width: 950px) {
     .about {
         justify-content: space-between;
+    }
+    .about > h2 {
+        width: 220px;
+        margin: 0;
     }
 }

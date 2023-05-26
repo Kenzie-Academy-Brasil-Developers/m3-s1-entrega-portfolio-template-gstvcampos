@@ -19,3 +19,16 @@
     gap: 1.0625rem;
 }
 
+.section > ul > li {
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width: 937px) {
+    .section > ul > li {
+        margin: 0;
+    }
+    .section > h2 {
+        margin: 0;
+    }
+}
