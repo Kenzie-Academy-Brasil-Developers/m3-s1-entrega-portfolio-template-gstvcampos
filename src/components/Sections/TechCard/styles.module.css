@@ -1,0 +1,11 @@
+.card {
+    border: .0625rem solid var(--color-white);
+    border-radius: 1.5625rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1.6875rem;
+    padding: 1.5625rem;
+    width: 230px;
+    max-width: 100%;
+}

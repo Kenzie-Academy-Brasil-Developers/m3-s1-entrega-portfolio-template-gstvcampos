@@ -1,0 +1,27 @@
+.card {
+    border: .0625rem solid var(--color-white);
+    border-radius: 1.5625rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 1.5625rem;
+    width: 380px;
+    height: 110px;
+    max-width: 100%;
+
+    position: relative;
+}
+
+.card > img {
+    position: absolute;
+    top: 1.0625rem;
+    right: 1.3125rem;
+}
+
+.card > a {
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--color-primary);
+}

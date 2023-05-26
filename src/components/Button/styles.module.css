@@ -1,0 +1,14 @@
+.button {
+    background-color: var(--color-primary);
+    cursor: pointer;
+
+    border-radius: .75rem;
+    border: .0625rem solid var(--color-primary);
+    padding: .6875rem 1.8125rem;
+    
+    font-family: 'Intar', sans-serif;
+    font-size: .875rem;
+    color: var(--color-white);
+
+    /* height: fit-content; */
+}

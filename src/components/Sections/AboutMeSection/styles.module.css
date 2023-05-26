@@ -1,0 +1,24 @@
+.about {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    padding: 1.25rem;
+    gap: 60px;
+
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 900px;
+}
+
+.about > p {
+    line-height: 1.875rem;
+    width: 615px;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 900px) {
+    .about {
+        justify-content: space-between;
+    }
+}

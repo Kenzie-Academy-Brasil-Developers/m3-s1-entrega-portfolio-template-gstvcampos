@@ -1,0 +1,21 @@
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    gap: 1.5625rem;
+    padding: 1.25rem;
+
+    margin: 0 auto;
+    margin-bottom: 25px;
+    max-width: 900px;
+}
+
+.section > ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    max-width: 100%;
+    gap: 1.0625rem;
+}
+
