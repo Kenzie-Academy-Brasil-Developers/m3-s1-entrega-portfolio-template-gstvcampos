@@ -8,10 +8,6 @@ import ProjectsSection from './components/Sections/ProjectsSection'
 import ProjectCard from './components/Sections/ProjectCard'
 import Footer from './components/Footer'
 
-import { technologies } from './data/technologies'
-import { projects } from './data/projects'
-import { user } from './data/user'
-
 import './styles/reset.css'
 import './styles/globalStyles.css'
 
