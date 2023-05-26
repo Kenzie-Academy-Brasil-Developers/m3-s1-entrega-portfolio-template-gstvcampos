@@ -1,6 +1,6 @@
 import styles from './styles.module.css'
 
-function BannerSection( { children } ) {
+function BannerSection( { children, imageUrl } ) {
   return (
       <section className={styles.banner}>
         <div>
@@ -11,7 +11,7 @@ function BannerSection( { children } ) {
             {children}
           </div>
         </div>
-        <img src=".././src/assets/banner-img.png" alt="banner" />
+        <img src={imageUrl} alt="banner" />
       </section>
   )
 }
