@@ -1,6 +1,6 @@
 import styles from './styles.module.css'
 
-import gitHubIcon from './assets/git-icon.png'
+import gitHubIcon from '../../../assets/git-icon.png'
 
 function ProjectCard() {
     return (

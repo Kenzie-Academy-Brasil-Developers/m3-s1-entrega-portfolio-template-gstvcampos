@@ -1,8 +1,8 @@
 import styles from './styles.module.css'
 
-import whatsappIcon from './assets/whatsapp-icon.png'
-import linkedinIcon from './assets/linkedin-icon.png'
-import githubIcon from './assets/github-icon.png'
+import whatsappIcon from '../../assets/whatsapp-icon.png'
+import linkedinIcon from '../../assets/linkedin-icon.png'
+import githubIcon from '../../assets/github-icon.png'
 
 function Footer() {
     return (
